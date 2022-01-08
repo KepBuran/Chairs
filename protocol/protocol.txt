@@ -1,0 +1,41 @@
+
+--Server--
+#Authorization#
+type: 'Accepted'
+message: "From now you will be known by this username."
+
+type: 'Rejected'
+message: "This username is already used by another player."
+
+
+#Greeting#
+type: 'admin'
+message: "You are first player to join, so are admin now!"
+
+type: 'User'
+message: "Please wait for the start of the game..."
+
+
+#Game Start#
+type: 'Rejected'
+message: "There are should be 2 players or more!"
+
+type: 'Accepted'
+message: "Starting Game"
+
+
+#Game Round#
+type: 'Chairs'
+message: "{all chairs}"
+
+##
+
+
+--Client--
+#Authorization#
+type: username
+message: "{username}"
+
+#Game Start#
+type: Start
+message: Start
